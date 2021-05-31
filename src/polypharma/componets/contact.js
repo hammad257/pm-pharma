@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Icon } from "semantic-ui-react";
-import umair from "./umair.jpeg";
+import umair1 from "./umair1.jpeg";
 
 class Contact extends Component {
     state = {  }
@@ -19,7 +19,7 @@ class Contact extends Component {
                                      <h2 style={{color:'white'}}>Email for any inqury</h2>
                                      </div>
                                      <div style={{marginLeft:'-90px'}}>
-                                   <h3> Umairali.lgs@gmail.com</h3>
+                                   <h3> PolyPharma@gmail.com</h3>
                                    </div>
                                  </div>
                              <div style={{marginLeft:'550px',marginTop:'-150px'}}>
@@ -41,7 +41,10 @@ class Contact extends Component {
                                      <h2 style={{color:'white'}}>Office Address</h2>
                                      </div>
                                      <div style={{marginLeft:'50px'}}>
-                                  <h4>214- Qadri Chamber Meclord Road, Lahore-Pakistan</h4>
+                                  <h4>Lahore office, Address</h4>
+                                  <span>214- Qadri Chamber Meclord Road, Lahore-Pakistan</span>
+                                  <h4>Islamabad Office, Address</h4>
+                                  <span>Basement floor,house 324, Gali 5,G-10/1,Islamabad-Pakistan</span>
                                   </div>
                                   </div>
                                  </div>
@@ -62,7 +65,7 @@ class Contact extends Component {
                     </div>
                      <div style={{marginLeft:'1050px',marginTop:'-100px'}}>
                      <h2 className="ui header">
-                    <img src={umair} className="ui circular image"/>
+                    <img src={umair1} className="ui circular image"/>
                       Umair Ali</h2>
                       <div style={{marginLeft:'70px',marginTop:'-30px'}}>
                       <p>CEO</p>

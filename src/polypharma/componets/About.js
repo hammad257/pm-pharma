@@ -14,7 +14,8 @@ import {
     Card,
     Accordion
   } from 'semantic-ui-react'
-  import umair from "./umair.jpeg";
+  import umair1 from "./umair1.jpeg";
+
 
 class About extends Component {
     state = { 
@@ -64,7 +65,7 @@ Plastics may also incorporate processing aids e.g., styrenes, acrylics, calcium 
             <div>
                 <div style={{margin:'40px'}}>
                    <Card>
-    <Image src={umair} wrapped ui={false} />
+    <Image src={umair1} wrapped ui={false} />
     <Card.Content>
       <Card.Header>Umair Ali</Card.Header>
       <Card.Meta>
